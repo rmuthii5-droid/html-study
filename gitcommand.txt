@@ -7,7 +7,7 @@ git config --global user.email "emailusedingithub"
 
 git config --global user.name "githubusername"
 
-git remote add origin https://github.com/rmuthii5-droid/html-study.git - this is where we connect github
+git remote add origin https://github.com/rmuthii5-droid/html-study.git  - this is where we connect github
 
 git push origin master - this push your computer to repository
 
