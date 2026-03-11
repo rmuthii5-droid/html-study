@@ -1,0 +1,13 @@
+git init = make the folder to start using git. it is done only once.
+git add . = add all file in the folder to be tracked by them
+
+git commit -m "message" = it will attach message to the changes 
+
+git config --global user.email "emailusedingithub"
+
+git config --global user.name "githubusername"
+
+git remote add origin https://github.com/rmuthii5-droid/html-study.git - this is where we connect github
+
+git push origin master - this push your computer to repository
+
