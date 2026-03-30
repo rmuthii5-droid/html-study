@@ -1,0 +1,49 @@
+h2 {
+    color: blue;
+    font-display: fallback;
+}
+
+ol {
+    color: red;
+}
+
+p {
+    font-weight: 400;
+    color: blue;
+}
+
+div.class {
+    background-color: aqua;
+    margin: 20px 20px;
+    border-radius: 3%;
+    border-color: black;
+    border-style: double;
+    color: blueviolet;
+    display: flex;
+}
+
+div.body {
+    background-color: aquamarine;
+    border: 20px;
+    padding: 150px;
+    border-radius: 5%;
+    border-style: groove;
+    color: black;
+    display: flex;
+    flex-direction: row; justify-content: space-between; gap: 40px;
+    min-height: 300px;
+}
+
+.photo {
+    background-color: aquamarine;
+    height: 250px;
+    width: 500px;
+    border-style: double;
+    color: black;
+
+}
+
+
+.p {
+display: flex; direction: 30px;
+}
