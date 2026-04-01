@@ -1,0 +1,45 @@
+.news-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Header & Footer */
+.header, .footer, .trending {
+    grid-column: span 12;
+}
+
+/* Featured Section */
+.featured-main {
+    grid-column: span 8;
+    height: 300px;
+}
+.featured-sub {
+    grid-column: span 4;
+    height: 300px;
+}
+
+/* Main & Sidebar */
+.main-feed {
+    grid-column: span 8;
+    height: 600px;
+}
+.sidebar {
+    grid-column: span 4;
+    height: 600px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .grid-item {
+        grid-column: span 12 !important;
+    }
+}
